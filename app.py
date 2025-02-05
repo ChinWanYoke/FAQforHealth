@@ -32,6 +32,6 @@ def find_best_answer(user_question):
 # Streamlit UI
 st.title("FAQ for Heart, Lung, and Blood Related Health")
 
-product_name = st.text_input("Enter your name:", value="Type here")
+product_name = st.text_input("Enter your questions:", value="Type here")
 if st.button("Submit"):
     st.write(best_answer)
