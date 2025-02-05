@@ -1,6 +1,6 @@
-openai==0.28
 pandas
-matlotlib
+matplotlib
 scipy
+openai==0.28
 plotly
 scikit-learn
